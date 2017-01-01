@@ -16,6 +16,12 @@
         background-color: #222222;
         color: #fff;
     }
+    .line-spacing-1-5 {
+        line-height: 1.5;
+    }
+    .line-spacing-2 {
+        line-height: 2;
+    }
     iframe {
         max-width: 600px;
     }
@@ -46,15 +52,19 @@
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Pavithra - Ashwanth Wedding</a>
+                <a class="navbar-brand page-scroll hidden-xs" href="#page-top">Pavithra - Ashwanth Wedding</a>
+                <a class="navbar-brand page-scroll visible-xs-inline-block" href="#page-top">P <i class="fa fa-heart"></i> A</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
                     <li>
                         <a class="page-scroll" href="#wedding-couple">Wedding Couple</a>
                     </li>
@@ -74,11 +84,11 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Pavithra &mdash; Ashwanth</h1>
-                <h2>திருமணம் &mdash; विवाहम् &mdash; Wedding</h2>
-                <hr>
+                <h1 id="homeHeading" class="line-spacing-1-5">Pavithra <span class="hidden-xs">&mdash;</span><span class="visible-xs-block">&amp;</span> Ashwanth</h1>
+                <h2 class="line-spacing-2">திருமணம் &mdash; विवाहम् &mdash; Wedding</h2>
+                <hr class="hidden-xs">
 
-                <h3>We request your gracious presence along with family &amp; friends to our wedding happening on <a class="page-scroll" href="#agenda">1st - 2nd February, 2017</a> at <a class="page-scroll" href="#venue">Sankara Narayana Kalyana Mahal, Vadavalli, Coimbatore</a>.</h3>
+                <h3 class="hidden-xs line-spacing-2"><a class="page-scroll" href="#agenda"><mark>1st &amp; 2nd February, 2017</mark></a> at <a class="header page-scroll" href="#venue"><mark>Sankara Narayana Kalyana Mahal, Vadavalli, Coimbatore</mark></a></h3>
                 <hr>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Show more!</a>
             </div>
@@ -166,13 +176,13 @@
 
             <div class="row text-center">
                 <div class="col-lg-12 col-sm-12 col-md-12">
-                    <h3>Reception</h3>
-                    <h3>1<sup>st</sup> February, 2017 &mdash; 7PM onwards</h3>
+                    <h3 class="line-spacing-2">Reception</h3>
+                    <h3 class="line-spacing-2">1<sup>st</sup> February, 2017 &mdash; 7PM onwards</h3>
                     <a class="btn btn-primary" role="button" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20170201T133000Z/20170201T163000Z&location=Sankara+Narayana+Kalyana+Mahal,+Maruthamalai+main+Rd+Curio+Garden,+Vadavalli+Coimbatore,+Tamil+Nadu+641041&text=Pavithra+-+Ashwanth+Reception&details">Add Reception to Calendar</a>
 
                     <hr />
-                    <h3>முஹூர்த்தம் &mdash; Muhurtham</h3>
-                    <h3>2<sup>nd</sup> February, 2017 from 09.30 AM &mdash; 10.30 AM</h3>
+                    <h3 class="line-spacing-2">முஹூர்த்தம் &mdash; Muhurtham</h3>
+                    <h3 class="line-spacing-2">2<sup>nd</sup> February, 2017 from 09.30 AM &mdash; 10.30 AM</h3>
                     <a class="btn btn-primary" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20170202T040000Z/20170202T050000Z&location=Sankara+Narayana+Kalyana+Mahal,+Maruthamalai+main+Rd+Curio+Garden,+Vadavalli+Coimbatore,+Tamil+Nadu+641041&text=Pavithra+-+Ashwanth+Muhurtham&details" class="atcb-link">Add Muhurtham to Calendar</a>
 
                 </div>
